@@ -1,0 +1,33 @@
+{
+  "SaveTime": "2021-12-06T01:56:44.657966+03:00",
+  "AlgorithmInput": {
+    "Objective Function": "4*(x1 - 5)^2 + (x2 - 6)^2",
+    "X1Bounds": {
+      "A": -10.0,
+      "B": 10.0
+    },
+    "X2Bounds": {
+      "A": -10.0,
+      "B": 10.0
+    },
+    "CountGenerations": 100,
+    "PopulationSize": 20,
+    "Selection Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.TournamentSelectionBuilderVm, AitLab4GeneticAlg",
+      "TournamentSize": 3
+    },
+    "Crossover Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.ExtendedLineCrossoverBuilderVm, AitLab4GeneticAlg",
+      "CrossingProbability": 0.98
+    },
+    "Mutation Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.UniformMutationBuilderVm, AitLab4GeneticAlg",
+      "MutationProbability": 0.1
+    }
+  },
+  "OptimizationResult": {
+    "X1": 4.944250826732638,
+    "X2": 5.981339347584899,
+    "FuncValue": 0.01278010122853455
+  }
+}

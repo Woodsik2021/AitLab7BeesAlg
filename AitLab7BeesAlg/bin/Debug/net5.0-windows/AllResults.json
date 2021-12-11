@@ -1,0 +1,66 @@
+{
+  "SaveTime": "2021-12-06T02:36:21.4148646+03:00",
+  "AlgorithmInput": {
+    "Objective Function": "4*(x1 - 5)^2 + (x2 - 6)^2",
+    "X1Bounds": {
+      "A": -10.0,
+      "B": 10.0
+    },
+    "X2Bounds": {
+      "A": -10.0,
+      "B": 10.0
+    },
+    "CountGenerations": 100,
+    "PopulationSize": 20,
+    "Selection Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.TournamentSelectionBuilderVm, AitLab4GeneticAlg",
+      "TournamentSize": 3
+    },
+    "Crossover Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.ExtendedLineCrossoverBuilderVm, AitLab4GeneticAlg",
+      "CrossingProbability": 0.98
+    },
+    "Mutation Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.UniformMutationBuilderVm, AitLab4GeneticAlg",
+      "MutationProbability": 0.1
+    }
+  },
+  "OptimizationResult": {
+    "X1": 4.997563128518713,
+    "X2": 6.018448138493207,
+    "FuncValue": 0.0003640871843297906
+  }
+}
+{
+  "SaveTime": "2021-12-06T12:52:46.1897186+03:00",
+  "AlgorithmInput": {
+    "Objective Function": "4*(x1 - 5)^2 + (x2 - 6)^2",
+    "X1Bounds": {
+      "A": 32.0,
+      "B": 213.0
+    },
+    "X2Bounds": {
+      "A": -21.0,
+      "B": 211.0
+    },
+    "CountGenerations": 100,
+    "PopulationSize": 20,
+    "Selection Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.TournamentSelectionBuilderVm, AitLab4GeneticAlg",
+      "TournamentSize": 3
+    },
+    "Crossover Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.ExtendedLineCrossoverBuilderVm, AitLab4GeneticAlg",
+      "CrossingProbability": 0.98
+    },
+    "Mutation Strategy": {
+      "$type": "AitLab4GeneticAlg.ViewModels.Builders.UniformMutationBuilderVm, AitLab4GeneticAlg",
+      "MutationProbability": 0.1
+    }
+  },
+  "OptimizationResult": {
+    "X1": 5.121215002867373,
+    "X2": 5.9975072924711705,
+    "FuncValue": 0.058778521271373556
+  }
+}
