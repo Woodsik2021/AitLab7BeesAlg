@@ -18,6 +18,7 @@ namespace AitLab7BeesAlg.Models.BeesAlg
         public Chromosome()
         {
             
+            
         }
 
         public double FuncValue { get; set; }
