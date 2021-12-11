@@ -25,6 +25,7 @@ namespace AitLab7BeesAlg.Models.BeesAlg
             
             
             
+            
         }
 
         public double FuncValue { get; set; }
